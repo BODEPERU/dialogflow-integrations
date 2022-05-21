@@ -27,11 +27,10 @@ const Chat = require('twilio-chat');
 //See https://dialogflow.com/docs/reference/v2-auth-setup and
 // https://cloud.google.com/dialogflow/docs/setup for details.
 
-const projectId = 'Place your dialogflow projectId here';
-const accountSid = 'Place your accont SID here';
-const apiKey = 'Place your API key here';
-const apiSecret = 'Place your secret API key here';
-const serviceSid = 'Place your service SID here';
+const projectId = twilioagent-tlbn;
+const phoneNumber = +14155238886;
+const accountSid = AC1d1852d0dc1f43668ab06b3b634124e5;
+const authToken = ef6ddf3f1b694ad53303651c7932e16e;
 
 const identity = 'dialogflow_bot';
 const sessionClient = new dialogflowSessionClient(projectId);
